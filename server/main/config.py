@@ -8,7 +8,7 @@ class BaseConfig:
     FLASK_APP = "main/__init__.py"
     SECRET_KEY = os.getenv("SECRET_KEY", "my_precious")
     DEBUG = False
-    BEARER_TOKEN = "AAAAAAAAAAAAAAAAAAAAAAZSlQEAAAAASSH6b9w8%2FX8aJtuAGblTr4CK1bw%3DKSRLRpEDCSiMkGOkAP5xYMho9z7H5Vtd8yOvgIUGHWLbh3FZtR"
+    BEARER_TOKEN = ""
 
 
 class DevelopmentConfig(BaseConfig):
